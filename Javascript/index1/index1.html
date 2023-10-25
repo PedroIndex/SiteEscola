@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" type="text/css" href="index1.css">
+</head>
+<body>
+    <div id="tempo"></div>
+  <div id="quiz-container">
+    
+    <h1>Pergunta 1:</h1>
+    <p>Qual é a capital do Brasil?</p>
+    <form id="quizForm">
+      <input type="radio" name="opcao" value="a" class="texte1"> a) Brasília<br>
+      <input type="radio" name="opcao" value="b" class="texte1"> b) São Paulo<br>
+      <input type="radio" name="opcao" value="c" class="texte1"> c) Rio de Janeiro<br>
+      <input type="radio" name="opcao" value="d" class="texte1"> d) Belo Horizonte<br>
+    </form>
+    <button onclick="responder()">Responder</button>
+    
+  </div>
+
+  <div id="resposta-container" style="display:none">
+    <h1>Resposta:</h1>
+    <p id="resposta"></p>
+    <button onclick="proximaPergunta()">Próxima pergunta</button>
+  </div>
+
+  <div id="resultado-container" style="display:none">
+    <h1>Resultado:</h1>
+    <p id="resultado"></p>
+    <a href="index.html"><button onclick="reiniciarQuiz()">Voltar para o inicio do Quiz</button></a>
+  </div>
+
+  <script src="index1.js"></script>
+</body>
+</html>

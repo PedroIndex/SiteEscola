@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+.av{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+}
+
+.av1{
+    width: 100%;
+    background-color: grey;
+    height: 40px;
+    text-align: center;
+  
+    
+}
+.av2{
+    width: 100%;
+    display: flex;
+    height: 250px;
+}
+.iv{
+    background-color: black;
+    width: 20%;
+}
+.iv1{
+    
+    width: 60%;
+}
+.iv2{
+    width:20% ;
+    color: white;
+    text-align: right;
+    font-size: 24pt;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.iv3{
+    margin-top: 6px;
+    width: 33%;
+    height: 533px;
+    background-color: blueviolet;
+    background-image: url(imagem/funeral-img12.jpg);
+    margin: 0px;
+    text-align: center center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    
+    
+    
+}
+.iv4{
+    margin-top: 6px;
+    width: 33%;
+    height: 533px;
+    background-image: url(imagem/crematorio-img2.jpg);
+    margin: 0px;
+}
+.iv5{
+    margin-top: 6px;
+    width: 33%;
+    height: 533px;
+    background-image: url(imagem/traslado-img2.jpg);
+    margin: 0px;
+    background-color: blueviolet;
+}
+
+.img1{
+    height: 99px;
+    margin-left: 50px;
+    width: 99px ;
+    
+}
+.h1{
+    color: white;
+    margin-left:258px ;
+    font-size: 25pt;
+}
+.h2{
+    color: white;
+    margin-left:180px ;
+}
+.h3{
+
+    margin-top: 213px;
+    margin-left: 86px;
+    font-size: 55pt;
+    color: black;
+}
+.h4{
+    margin-left: 86px;
+    font-size: 45pt;
+}
+.h5{
+   font-size: 55pt;
+   margin-top: 229px;
+    margin-left: 90px;
+}
+.h6{
+color: black;
+margin-top: 229px;
+
+margin-left: 90px;
+font-size: 48pt;
+}
+a{
+    color: white;
+    
+
+}
+.a1{
+   
+   margin-right: 20px;
+    font-size: 16pt;
+    margin-top: 6px;
+    
+}
+.a2{
+    margin-top: 6px;
+    margin-left: 740px;
+    margin-right: 20px;
+    background-position:center right ;
+    
+    font-size: 16pt;
+}
+.a3{ 
+    margin-top: 6px;
+    font-size: 16pt;
+    margin-right: 0px;
+}
+
+.u1{
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+
+
+

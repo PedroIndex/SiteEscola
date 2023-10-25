@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+</head>
+
+
+<body>
+    <video autoplay muted loop id="video-background">
+  <source src="caminho/do/video.mp4" type="video/mp4">
+  Seu navegador não suporta a reprodução de vídeos.
+</video>''
+<div id="tempo"></div>
+    <nav class="tambarete">
+        
+           
+            <div id="quiz-container">
+                <h1>Pergunta 1:</h1>
+                <div class="imgtex"><img src="imagem/pergunta1.jpg" alt="Pergunta 1"></div>
+                <p>Qual é a capital do Brasil?</p>
+                <form id="quizForm">
+                    <input type="radio" name="opcao" value="A" class="texte1"> a) Brasília<br>
+                    <input type="radio" name="opcao" value="B" class="texte1"> b) São Paulo<br>
+                    <input type="radio" name="opcao" value="C" class="texte1"> c) Rio de Janeiro<br>
+                    <input type="radio" name="opcao" value="D" class="texte1"> d) Belo Horizonte<br>
+                </form>
+                <button onclick="responder()">Responder</button>
+            </div>
+            <div id="resposta-container" style="display:none">
+                <h1>Resposta:</h1>
+                <p id="resposta"></p>
+                <button onclick="proximaPergunta()">Próxima pergunta</button>
+            </div>
+            <div id="resultado-container" style="display:none">
+                <h1>Resultado:</h1>
+                <p id="resultado"></p>
+                <button onclick="reiniciarQuiz()">Reiniciar Quiz</button>
+            </div>
+        
+    </nav>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>

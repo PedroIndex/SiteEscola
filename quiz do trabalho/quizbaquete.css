@@ -1,0 +1,122 @@
+body {
+    background-color: cyan;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(imagem/fundodefinirivo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#quiz-container,
+#resposta-container,
+#resultado-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#tempo {
+    font-size: 67pt;
+     margin-left: 5px;
+    position: fixed;
+    border: 8px solid red;
+    border-radius: 100px;
+    width: 135px;
+    text-align: center;
+    color: red;
+}
+
+#quizForm {
+    text-align: justify;
+
+    width: 560px;
+    font-size: 40pt;
+
+
+
+
+}
+
+.tambarete {
+
+    width: 80%;
+    background-color: white;
+    margin-left: 10%;
+    opacity: 0.8;
+
+    border-radius: 30px;
+}
+
+.resposta-correta {
+    color: green;
+    font-size: 60pt;
+}
+
+.resposta-incorreta {
+    color: red;
+    font-size: 60pt;
+}
+
+#quiz-container {
+    font-size: 29pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#resposta-container {
+    margin-top: 100px;
+    font-size: 22pt;
+
+}
+
+p {
+
+    font-size: 40pt;
+    color: black;
+}
+
+button {
+    border-radius: 30px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.texte1 {
+    width: 26px;
+    height: 26px;
+
+}
+
+img {
+    width: 600px;
+  
+
+}
+
+.imgtex {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+
+}
+
+h1 {
+
+    font-size: 70pt;
+    color: orangered;
+}
+
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+
+}

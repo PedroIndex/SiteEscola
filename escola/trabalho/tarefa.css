@@ -1,0 +1,60 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+img.img1 {
+
+    width: 100%;
+}
+
+img.img2 {
+    width: 200px;
+    height: 150px;
+}
+
+table.tb1 {
+    background-color: rgba(255, 255, 255, 0.679);
+    width: 100%;
+}
+
+tr{
+    padding: 0px;
+    margin: 0px;
+}
+
+td.d2 {
+    background-color: red;
+    height: 50px;
+    text-align: left;
+    color: white;
+    font-size: 34px;
+    border-radius: 60px;
+}
+table{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+tr.t1{
+    height: 700px;
+    vertical-align: top;
+}
+th.t1{
+    background-color: red;
+    
+    font-size: 20px;
+    width: 15%;
+    
+    padding: 10px;
+    
+}
+th#n1.t1{
+    text-align: right;
+}

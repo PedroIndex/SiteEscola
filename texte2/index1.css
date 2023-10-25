@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.av{
+    width: 100%;
+    height: 100px;
+    background-color: #ab89d0;
+    display: flex;
+}
+
+.av1{
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+    height: 40px;
+    text-align: center;
+  
+    
+}
+.av2{
+    width: 100%;
+    display: flex;
+    height: 550px;
+    
+    background-repeat: no-repeat;
+
+}
+.av3{
+    margin-top: 283px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(114, 205, 114);
+}
+.av4{
+    background-color: darkslategray;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.iv{
+    background-color: #ab89d0;
+    width: 20%;
+}
+.iv1{
+    
+    width: 60%;
+}
+.iv2{
+    width:20% ;
+    color: white;
+    text-align: right;
+    font-size: 24pt;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.iv3{
+    margin-top: 6px;
+    width: 33%;
+    height: 533px;
+    background-color: blueviolet;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0px;
+    margin-left: 10px;
+   
+    
+    
+    
+}
+.iv4{
+    margin-top: 6px;
+    width: 33%;
+    height: 533px;
+    
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+.iv5{
+    margin-top: 6px;
+    width: 33%;
+    height: 533px;
+
+    background-repeat: no-repeat;
+   
+    margin: 0px;
+}
+.iv6{
+    font-size: 46pt;
+    color: white;
+    text-align: center;
+}
+.iv7{
+    width: 50%;
+   
+    color: white;
+}
+.iv8{
+    width: 50%;
+}
+
+
+.img1{
+    height: 99px;
+    margin-left: 50px;
+    width: 99px ;
+    
+}
+.img2{
+    margin-left: 300px;
+}
+.h1{
+    color: rgb(0, 0, 0);
+    margin-left:360px ;
+    font-size: 25pt;
+}
+.h2{
+    color: rgb(0, 0, 0);
+    margin-left:295px ;
+}
+.h3{
+
+    margin-top: 113px;
+    text-align: center;
+    font-size: 80pt;
+    color: white;
+    
+}
+.h4{
+    text-align: center;
+    font-size: 80pt;
+    color: white;
+}
+.h5{
+    margin-top: 213px;
+    text-align: center;
+    font-size: 80pt;
+    color: white;  
+}
+.h6{
+    margin-top: 113px;
+    text-align: center;
+    font-size: 80pt;
+    color: white;  
+}
+.h7{
+   
+    text-align: center;
+    font-size: 80pt;
+    color: white;
+}
+.h8{
+  font-size: 30pt;
+    margin-left: 15px;
+}
+a{
+    color:black;
+    
+
+}
+.a1{
+   
+   margin-right: 20px;
+    font-size: 16pt;
+    margin-top: 6px;
+    
+}
+.a2{
+    margin-top: 6px;
+    margin-left: 780px;
+    margin-right: 20px;
+    background-position:center right ;
+    
+    font-size: 16pt;
+}
+.a3{ 
+    margin-top: 6px;
+    font-size: 16pt;
+    margin-right: 0px;
+}
+
+.u1{
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+
+
+

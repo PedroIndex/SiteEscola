@@ -1,0 +1,17 @@
+#quiz-container, #resposta-container {
+  text-align: center;
+  font-size: 22pt;
+}
+
+#tempo {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.resposta-correta {
+  color: green;
+}
+
+.resposta-incorreta {
+  color: red;
+}
